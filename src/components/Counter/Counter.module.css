@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.counter {
+	width: 400px;
+	height: 500px;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 40px;
+	background-color: #fff;
+	border-radius: 30px;
+	box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.2)
+}
+
+.message {
+	min-height: 40px;
+}
+
+.emoji {
+	font-size: 30px;
+	line-height: 1;
+}
+
+.number {
+	font-size: 40px;
+	line-height: 1;
+}
+
+.buttons {
+	display: flex;
+	gap: 10px;
+}
+
+button {
+	min-width: 40px;
+	min-height: 40px;
+	background-color: #9A86A4;
+	color: #fff;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	font-size: inherit;
+	font-family: inherit;
+}
+
+.reset {
+	padding: 5px 20px;
+}
